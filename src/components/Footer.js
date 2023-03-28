@@ -16,7 +16,8 @@ function footer() {
             <FacebookIcon/>
             <TwitterIcon/>
         </div>
-        <p>&copy;2023 Mirvan kotisvu </p>
+        <p>&copy;2023 Verkkopalveluprojekti
+          Aleksi, Elina, Nikita, Mirva, Tommi </p>
 
     </div>
   )
