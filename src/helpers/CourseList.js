@@ -1,4 +1,4 @@
-import Js from '../images/js2.jpg'
+import Js from '../images/js2.png'
 import Sweden from '../images/Sweden.png'
 import React from '../images/React.png'
 import England from '../images/England.png'
@@ -14,6 +14,7 @@ export const MenuList= [
         name:"React",
         image : React,
         CoursePrice: 60,
+ 
     }, 
     {
         name:"Math",

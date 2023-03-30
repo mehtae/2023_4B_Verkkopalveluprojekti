@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom";
-import BannerImage from '../images/taustakuva5.jpg';
+import BannerImage from '../images/taustakuva5.png';
 import '../styles/home.css'
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
         <h1>OamkCampusMonkeys</h1>
         <p>Someting about us</p>
         <Link to="/menu">
-        <button>Register</button>
+        <button>Ok</button>
         </Link>
     </div>
     </div>
