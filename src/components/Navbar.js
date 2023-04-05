@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Logo from "../img/Oamk simpanssit.png";
+import Logo from "../assets/pizzaLogo.png";
 import { Link } from "react-router-dom";
-import ReorderIcon from '@mui/icons-material/Reorder'
+import { IconIoReorderFourOutlineName } from "react-icons/fa";
 import "../styles/Navbar.css";
 
 function Navbar() {
@@ -11,15 +11,14 @@ function Navbar() {
     setOpenLinks(!openLinks);
   };
   return (
-    <div className="Navbar">
+    <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
-        <img src={Logo} alt= "" />
+        <img src={Logo} />
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
           <Link to="/menu"> Menu </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
-          <Link to="/shoppingcart">Shoppincart</Link>
         </div>
       </div>
       <div className="rightSide">
@@ -27,9 +26,8 @@ function Navbar() {
         <Link to="/menu"> Menu </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
-        <Link to="/shoppincart"> Shoppincart </Link>
         <button onClick={toggleNavbar}>
-          <ReorderIcon />
+          <IoReorderFourOutline />
         </button>
       </div>
     </div>
@@ -37,3 +35,4 @@ function Navbar() {
 }
 
 export default Navbar;
+
