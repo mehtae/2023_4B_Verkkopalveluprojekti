@@ -1,11 +1,11 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Menu from './pages/Menu.js'
+import Menu from './pages/MenuItem.js'
 import Shoppingcart from './pages/Shoppingcart.js'
 import About from './pages/About.js'
 import ContactUs from './pages/Contact.js'
-import Footer from './pages/Footer.js'
+import Footer from './components/Footer.js'
 
 import { BrowserRouter, Routes,Route} from "react-router-dom";
 
@@ -23,6 +23,7 @@ function App() {
           <Route exact path="/Shoppingcart" element={<Shoppingcart/>} />
         </Routes>
         <Footer/>
+  
         </BrowserRouter>
     </div>
   );

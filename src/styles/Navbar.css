@@ -1,12 +1,12 @@
-.Navbar {
+.navbar {
     width: 100%;
     height: 100px;
-    background-color: #121619;
+    background-color: #2795e8;
     display: flex;
     flex-direction: row;
   }
   
-  .Navbar .leftSide {
+  .navbar .leftSide {
     flex: 50%;
     height: 100%;
     display: flex;
@@ -14,11 +14,11 @@
     padding-left: 20px;
   }
   
-  .Navbar .leftSide img {
+  .navbar .leftSide img {
     width: 100px;
   }
   
-  .Navbar .rightSide {
+  .navbar .rightSide {
     flex: 50%;
     height: 100%;
     display: flex;
@@ -26,50 +26,50 @@
     justify-content: center;
   }
 
- .Navbar .Cart{
+ .navbar .Cart{
     color: aliceblue;
     margin: 35px;
 
   }
   
-  .Navbar a {
+  .navbar a {
     color: white;
     text-decoration: none;
     margin: 20px;
   }
   
-  .Navbar .rightSide button {
+  .navbar .rightSide button {
     background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
   }
   
-  .Navbar .rightSide svg {
+  .navbar .rightSide svg {
     font-size: 40px;
   }
   
-  .Navbar #open {
+  .navbar #open {
     padding-left: 0px;
   }
-  .Navbar #open img {
+  .navbar #open img {
     display: none;
   }
   
-  .Navbar #close img {
+  .navbar #close img {
     display: inherit;
   }
   
-  .Navbar #open .hiddenLinks {
+  .navbar #open .hiddenLinks {
     display: inherit;
     margin-left: 30px;
   }
   
-  .Navbar #close .hiddenLinks {
+  .navbar #close .hiddenLinks {
     display: none;
   }
   
-  .Navbar #open a {
+  .navbar #open a {
     width: 70px;
     margin: 5px;
   }
@@ -77,28 +77,28 @@
     .Navbar .rightSide a {
       width: 70px;
     }
-    .Navbar .leftSide {
+    .navbar .leftSide {
       padding-left: 50px;
     }
   }
   
   @media only screen and (max-width: 600px) {
-    .Navbar .rightSide a {
+    .navbar .rightSide a {
       display: none;
     }
   
-    .Navbar .rightSide {
+    .navbar .rightSide {
       justify-content: flex-end;
       padding-right: 50px;
     }
   
-    .Navbar .rightSide button {
+    .navbar .rightSide button {
       display: inherit;
     }
   }
   
   @media only screen and (min-width: 600px) {
-    .Navbar .rightSide button {
+    .navbar .rightSide button {
       display: none;
     }
   
