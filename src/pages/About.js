@@ -1,13 +1,17 @@
 import React from "react";
 import "../styles/about.css";
+import Pic from '../img/taustakuva3.png'
 function About() {
   return (
     <div className="about">
       <div
-        className="aboutTop"
-      ></div>
+        className="aboutTop">
+          <img src={Pic}/>
+      
+      </div>
       <div className="aboutBottom">
-        <h1> ABOUT US</h1>
+      
+        <h1><b> ABOUT US</b></h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
           mollitia, molestiae quas vel sint commodi repudiandae consequuntur

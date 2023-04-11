@@ -1,4 +1,4 @@
-.Footer {
+.footer {
     width: 100%;
     height: 200px;
     background-color: #121619;
@@ -16,7 +16,7 @@
     cursor: pointer;
 }
 
-.Footer p {
+.footer p {
     color: white;
 
 }
