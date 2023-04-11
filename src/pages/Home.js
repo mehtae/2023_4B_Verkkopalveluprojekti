@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import img from "../img/koodikuva2.jpg"
 import "../styles/home.css";
 
 function Home() {

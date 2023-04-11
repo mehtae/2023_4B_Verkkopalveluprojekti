@@ -1,12 +1,15 @@
 import React from "react";
 import "../styles/contactus.css";
+import pict from "../img/contact.png";
 
 function Contact() {
   return (
     <div className="contact">
       <div
         className="leftSide"
-      ></div>
+      ><img src={pict}/>
+
+      </div>
       <div className="rightSide">
         <h1> Contact Us</h1>
 
