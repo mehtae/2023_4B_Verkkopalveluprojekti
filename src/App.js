@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Menu from './pages/Menu.js'
+import Courses from './pages/Courses.js'
 import Shoppingcart from './pages/Shoppingcart.js'
 import About from './pages/About.js'
 import ContactUs from './pages/Contact.js'
@@ -18,7 +18,7 @@ function App() {
       <Navbar/>
         <Routes>
           <Route exact path="/" element={<Home/>} /> 
-          <Route exact path="/Menu" element={<Menu/>} />
+          <Route exact path="/Courses" element={<Courses/>} />
           <Route exact path="/About" element={<About/>} />
           <Route exact path="/Contact" element={<ContactUs/>} />
           <Route exact path="/Register" element={<Register/>} />

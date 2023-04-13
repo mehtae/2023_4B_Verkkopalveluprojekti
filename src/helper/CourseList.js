@@ -1,6 +1,6 @@
 
 
-export const MenuList= [
+export const CourseList= [
     {
         name:"React",
         

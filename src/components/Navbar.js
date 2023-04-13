@@ -14,7 +14,7 @@ function Navbar() {
       <div className="leftSide" id={openLinks ? "open" : "close"}>
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
-          <Link to="/menu"> Menu </Link>
+          <Link to="/courses"> Courses </Link>
           <Link to="/about"> About </Link>
           <Link to="/register"> Register </Link>
           <Link to="/contact"> Contact </Link>
@@ -22,7 +22,7 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
-        <Link to="/menu"> Menu </Link>
+        <Link to="/courses"> Courses </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
         <Link to="/register"> Register </Link>
