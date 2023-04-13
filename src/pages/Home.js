@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import img from "../img/koodikuva2.jpg"
 import "../styles/home.css";
 
 function Home() {
@@ -8,7 +7,7 @@ function Home() {
     <div className="home">
       <div className="headerContainer">
         <h1> OAMK Monkeys</h1>
-        <p> Helps when everything else fucks up</p>
+        <p> Helps when everything else fucks</p>
         <Link to="/menu">
           <button> LogIn </button>
         </Link>
