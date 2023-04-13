@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Menu from './pages/MenuItem.js'
+import Menu from './pages/Menu.js'
 import Shoppingcart from './pages/Shoppingcart.js'
 import About from './pages/About.js'
 import ContactUs from './pages/Contact.js'
