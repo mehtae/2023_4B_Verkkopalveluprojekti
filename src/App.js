@@ -6,6 +6,7 @@ import Shoppingcart from './pages/Shoppingcart.js'
 import About from './pages/About.js'
 import ContactUs from './pages/Contact.js'
 import Footer from './components/Footer.js'
+import Register from './pages/Register';
 
 import { BrowserRouter, Routes,Route} from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/Menu" element={<Menu/>} />
           <Route exact path="/About" element={<About/>} />
           <Route exact path="/Contact" element={<ContactUs/>} />
+          <Route exact path="/Register" element={<Register/>} />
           <Route exact path="/Shoppingcart" element={<Shoppingcart/>} />
         </Routes>
         <Footer/>

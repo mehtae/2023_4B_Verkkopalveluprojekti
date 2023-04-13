@@ -28,6 +28,13 @@
     justify-content: center;
   }
 
+  .navbar .rightSide :hover{
+    color: aqua;
+    text-transform: uppercase;
+    
+
+  }
+
  .navbar .Cart{
     color: aliceblue;
     margin: 35px;

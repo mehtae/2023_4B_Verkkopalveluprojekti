@@ -1,10 +1,4 @@
-import Js from '../images/js2.png'
-import Sweden from '../images/Sweden.png'
-import React from '../images/React.png'
-import England from '../images/England.png'
-import Git from '../images/Git.png'
-import Math from '../images/Math.png'
-import Relaatio from '../images/Relaatio.png'
+
 
 
 
@@ -12,41 +6,41 @@ import Relaatio from '../images/Relaatio.png'
 export const MenuList= [
     {
         name:"React",
-        image : React,
+        image :,
         CoursePrice: 60,
  
     }, 
     {
         name:"Math",
-        image : Math ,
+        image :,
         CoursePrice: 60,
     }, 
     
     {
         name:"Js",
-        image : Js,
+        image :,
         CoursePrice: 60,
     }, 
     
     {
         name: "Git",
-        image : Git,
+        image :,
         CoursePrice: 60,
     }, 
     
     {
         name: "Relaatiotietokannat",
-        image : Relaatio,
+        image :,
         CoursePrice: 60,
     }, 
     {
         name: "English",
-        image : England,
+        image :,
         CoursePrice: 60,
     },
     {
         name: "Swedish",
-        image : Sweden,
+        image :,
         CoursePrice: 60,
     }
            
