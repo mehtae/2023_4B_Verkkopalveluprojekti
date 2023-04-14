@@ -12,21 +12,11 @@ function About() {
       <div className="aboutBottom">
       
         <h1><b> ABOUT US</b></h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-          mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-          voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-          fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-          accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-          molestias architecto voluptate aliquam nihil, eveniet aliquid culpa
-          officia aut! Impedit sit sunt quaerat, odit, tenetur error, harum
-          nesciunt ipsum debitis quas aliquid. Reprehenderit, quia. Quo neque
-          error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-          officiis modi at sunt excepturi expedita sint? Sed quibusdam
-          recusandae alias error harum maxime adipisci amet laborum.
-          Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
-          cumque velit
+        <p className="description">
+        Olemme ryhmä kehittäjiä, jotka loivat tämän sivuston auttaakseen ihmisiä saamaan laadukasta ohjelmointialan koulutusta. Tavoitteenamme on tehdä oppimisesta mahdollisimman helppoa ja saavutettavaa kaikille, jotka haluavat oppia uuden ammatin tai kehittää taitojaan. Tarjoamme laajan valikoiman online-ohjelmointikursseja, jotka auttavat sinua menestymään urallasi.
         </p>
+        <p className="description"> 
+        Jos sinulla on kysyttävää tai ehdotuksia, ota meihin yhteyttä yhteydenottolomakkeella sivulla "Ota yhteyttä". Olemme aina valmiina auttamaan ja vastaamaan kysymyksiisi.</p>
       </div>
     </div>
   );
