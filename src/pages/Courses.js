@@ -2,6 +2,7 @@ import React from "react";
 import { CourseList } from "../helper/CourseList";
 import CourseItem from "../components/CourseItem.js";
 import "../styles/courses.css";
+import Math from "../Courses/Math.js"
 
 function Courses() {
   return (
