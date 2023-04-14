@@ -17,6 +17,7 @@ function Courses() {
               name={courseItem.name}
               price={courseItem.price}
             />
+            
           );
         })}
       </div>

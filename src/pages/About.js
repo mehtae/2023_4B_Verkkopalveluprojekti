@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about.css";
-import Pic from '../img/taustakuva3.png'
+import Pic from '../img/gorilla.png'
 function About() {
   return (
     <div className="about">
