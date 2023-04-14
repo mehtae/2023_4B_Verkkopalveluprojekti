@@ -1,17 +1,21 @@
 import React from "react";
 import "../styles/contactus.css";
 import pict from "../img/contact.png";
+import StarRating from "../components/Feedback.js"
+import { Feedback } from "@mui/icons-material";
+import { Rating } from "@mui/material";
 
 function Contact() {
   return (
     <div className="contact">
       <div
-        className="leftSide"
-      ><img src={pict}/>
+        className="leftSide">
+
+     <div className="Feedback"> <StarRating/></div>
 
       </div>
       <div className="rightSide">
-        <h1> Contact Us</h1>
+        <h1>Contact/Feedback</h1>
 
         <form id="contact-form" method="POST">
           <label htmlFor="name">Full Name</label>
@@ -27,6 +31,7 @@ function Contact() {
           ></textarea>
           <button type="submit"> Send Message</button>
         </form>
+
       </div>
     </div>
   );

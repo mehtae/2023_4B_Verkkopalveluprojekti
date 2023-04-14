@@ -1,0 +1,27 @@
+.Feedback{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.Feedback input{
+    display:none;
+}
+
+
+
+
+
+.star{
+    cursor: pointer;
+    transition: color 200ms;
+    
+}
+
+/*
+yellow: #ffc107
+gray: #e4e5e9
+*/
+
